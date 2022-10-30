@@ -56,9 +56,9 @@ function LoginComponent() {
             <form style={{display:"flex", flexDirection:"column"}} onSubmit={routeChange}>
                {/*<input type="text" id="username" name="username" /> <br/>
                 <input type="password" id="password" name="password" /> <br/> */}
-                <TextField style={{height:"10px", margin:"1.5rem", minWidth:"15rem"}} id="demo-helper-text-misaligned" label="Name"/>
-                <TextField style={{height:"10px", margin:"1.5rem", minWidth:"15rem"}} id="demo-helper-text-misaligned" label="Password" type="password"/>
-                <Button style={{margin:"1.5rem"}} type="submit" variant="contained">Login</Button>
+                <TextField style={{height:"10px", margin:"1.7rem", minWidth:"20rem"}} id="demo-helper-text-misaligned" label="Name"/>
+                <TextField style={{height:"10px", margin:"1.7rem", minWidth:"20rem"}} id="demo-helper-text-misaligned" label="Password" type="password"/>
+                <Button style={{margin:"1.7rem"}} type="submit" variant="contained">Login</Button>
 
                {/* <input style={{marginTop:"1rem", minWidth:"15rem"}} type="submit" id="submitButton" />
             
