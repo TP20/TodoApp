@@ -40,10 +40,10 @@ class Todo extends React.Component {
 
     render() {
         return(
-            <div style={{display:"flex", alignItems:"center", marginTop:"10rem", height:"50rem", flexDirection:"column"}}>
+            <div id="todoForm">
                 <form onSubmit={this.handleSubmit}>
-                    <input type="text" id="todoVal" onChange={this.detectVal} name="item" />
-                    <input type="submit" id="submitButton" value="Add"/>
+                    <input className="itemAddition" type="text" id="todoVal" onChange={this.detectVal} name="item" />
+                    <input className="addButton" type="submit" id="submitButton" value="Add"/>
                 </form>
                 {this.state.list.map((val)=>{
                     return(<div style={{display:'flex', alignItems:'center', margin:'0.5rem'}}><div style={{width:'10rem', textAlign:'center'}}><p>{val} </p></div> <button className='removeButton'>-</button></div>);

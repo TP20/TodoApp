@@ -70,3 +70,25 @@
     transform: rotate(360deg);
   }
 }
+
+#todoForm {
+  display: flex;
+   align-items: center; 
+   margin-top:10rem; 
+   height: 50rem;
+  flex-direction: column;
+}
+
+@media (min-width: 0px) and (max-width:767px) {
+  #todoVal {
+    width: 60%;
+  }
+
+  #submitButton {
+    width:20%;
+  }
+
+  #todoForm {
+    margin-top:2rem;
+  }
+}
